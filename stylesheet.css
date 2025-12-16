@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section h1{
+    text-transform: uppercase;
+    color: #070707;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+section .form .form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+section .form .form-control label{
+    font-size: 20px;
+    margin: 0;
+}
+
+.form button{
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    padding: 20px;
+    margin: 15px;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section .form .form-control .label .name-label{
+    display: flex;
+    flex-direction: row;
+}
+.form-control2{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.form-control2 .form-control{
+    flex: 1;
+    margin-bottom: 0; 
+}
+
+input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    accent-color: green; 
+    cursor: pointer;
+}
