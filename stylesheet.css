@@ -94,3 +94,22 @@ input[type="checkbox"]{
     accent-color: green; 
     cursor: pointer;
 }
+.input-wrapper{
+    position: relative;
+    width: 100%;
+}
+.input-wrapper .icon{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6b6b6b;
+    font-size: 18px;
+    pointer-events: none;
+    z-index: 2;
+}
+.input-wrapper input{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 40px; 
+}

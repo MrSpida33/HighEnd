@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
+      <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
 </head>
 <body>
     <section>
@@ -14,40 +18,59 @@
         <div class="form-control2">
             <div class="form-control">
                 <label for="name" id="name-label">Name</label>
-                <input id="name" name="name" type="text" placeholder="Fill your name" required>
+                <div class="input-wrapper">
+                    <i class="fa-regular fa-user icon"></i>
+                    <input id="name" name="name" type="text" placeholder="Fill your name" required>
+                </div>
             </div>
             <div class="form-control">
                 <label for="surname" id="surname-label">Surname</label>
-                <input id="surname" name="surname" type="text" placeholder="Fill your Surname" required>
+                <div class="input-wrapper">
+                    <i class="fa-regular fa-user icon"></i>
+                    <input id="surname" name="surname" type="text" placeholder="Fill your Surname" required>
+                </div>
             </div>
         </div>
 
         <div class="form-control">
-            <label for="email" id="email">Email</label>
-            <input type="text" placeholder="Fill your email" required>
+            <label for="email" id="email-label">Email</label>
+            <div class="input-wrapper">
+                <i class="fa-solid fa-envelope icon"></i>
+                <input id="email" name="email" type="email" placeholder="Fill your email" required>
+            </div>
         </div>
 
         <div class="form-control">
-            <label for="password" id="password">Password</label>
-            <input type="password" placeholder="Fill your password" required>
+            <label for="password" id="password-label">Password</label>
+            <div class="input-wrapper">
+                <i class="fa-solid fa-lock icon"></i>
+                <input id="password" name="password" type="password" placeholder="Fill your password" required>
+            </div>
         </div>
 
-         <div class="form-control">
-            <label for="Confirm password" id="Confirm">Confirm Password</label>
-            <input type="password" placeholder="Fill your password" required>
+        <div class="form-control">
+            <label for="confirm-password" id="confirm-label">Confirm Password</label>
+            <div class="input-wrapper">
+                <i class="fa-solid fa-lock icon"></i>
+                <input id="confirm-password" name="confirm-password" type="password" placeholder="Confirm your password" required>
+            </div>
         </div>
 
-         <div class="form-control">
-            <label for="satut" id="Statut">Statut</label>
-            <input type="text" placeholder="Fill your satut" optional>
+        <div class="form-control">
+            <label for="statut" id="statut-label">Statut</label>
+            <div class="input-wrapper">
+                <i class="fa-regular fa-user icon"></i>
+                <input id="statut" name="statut" type="text" placeholder="Fill your statut">
+            </div>
         </div>
 
-            <div class="form-control2">
-            <input type="checkbox" id="checkbox">
+        <div class="form-control">
+            <input type="checkbox" id="accept" name="accept">
             <label for="accept">I accept terms and conditions</label>
         </div>
+
         <div class="form-control">
-         <button type="submit" id="Sign In">Sign in</button>
+            <button type="submit" id="sign-in">Sign in</button>
         </div>
     </form>
     </section>
